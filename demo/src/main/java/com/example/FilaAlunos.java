@@ -25,10 +25,11 @@ public class FilaAlunos {
         return alunos.isEmpty();
     }
 
-    public void imprimirEstado() {
+    public void imprimirEstadoFila() {
         System.out.println("Estado da fila de alunos:");
         for (Aluno aluno : alunos) {
             System.out.println("Nome: " + aluno.getNome() + ", Idade: " + aluno.getIdade());
         }
+        System.out.println("Fim da fila.\n");
     }
 }

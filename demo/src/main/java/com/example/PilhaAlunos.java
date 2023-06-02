@@ -36,11 +36,11 @@ public class PilhaAlunos {
         return alunos.isEmpty();
     }
 
-    public void imprimirEstado() {
+    public void imprimirEstadoPilha() {
         System.out.println("Estado da pilha de alunos:");
         for (int i = alunos.size() - 1; i >= 0; i--) {
             Aluno aluno = alunos.get(i);
             System.out.println("Nome: " + aluno.getNome() + ", Idade: " + aluno.getIdade());
-        }
+        } System.out.println("Fim da pilha.\n");
     }
 }
